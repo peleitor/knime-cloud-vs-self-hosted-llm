@@ -1,0 +1,18 @@
+# Modelos y pesos pesados (GGUF / Binarios)
+*.gguf
+*.bin
+*.pt
+*.safetensors
+models/
+
+# Temporales de KNIME y backups
+.knime/
+*.knime
+*~
+*.bak
+
+# Entornos virtuales y configuraciones locales
+.env
+credentials.json
+.DS_Store
+Thumbs.db
